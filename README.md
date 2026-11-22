@@ -1,4 +1,5 @@
 # VSeeFace 桌面透明角色（VSeeFace Desktop Pet）
+这种无ui的方式只有在配套的obs才能实现，所以整了一个本机可使用的插件
 
  ⚠️ 这是一个**非官方的第三方配套插件**，与 VSeeFace 官方无关
  本仓库不包含 VSeeFace 本体、模型或任何素材；VSeeFace 需要用户自行安装
