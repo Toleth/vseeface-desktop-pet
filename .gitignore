@@ -1,0 +1,35 @@
+# ---- runtime generated files (never commit) ----
+vsf_debug.log
+vsf_pet_config.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- PyInstaller build artifacts ----
+build/
+dist/
+*.spec
+# Prefer GitHub Releases for binaries. To ship it in the repo: git add -f VSeeFaceDesktopPet.exe
+VSeeFaceDesktopPet.exe
+
+# ---- Screenshots: test captures may contain private desktop content.
+#      If you really want a demo image, use: git add -f docs/demo.png
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+screenshots/
+
+# ---- WorkBuddy project data (local only) ----
+.workbuddy/
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

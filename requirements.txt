@@ -1,0 +1,4 @@
+# Runtime dependencies (Python 3.11+, Windows 64-bit)
+SpoutGL>=0.1.2
+pillow>=10.0
+numpy>=1.26
