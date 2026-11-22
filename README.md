@@ -110,22 +110,12 @@ python -m PyInstaller --noconfirm --onefile --windowed --name VSeeFaceDesktopPet
 | [Pillow](https://python-pillow.org/) | 图像处理 | MIT-CMU | Pillow contributors |
 | [PyInstaller](https://pyinstaller.org/) | 仅用于构建，不随程序分发其功能代码 | GPLv2-or-later + bootloader 例外（允许打包和分发非自由/商业程序） | PyInstaller contributors |
 
-> 说明：`VSeeFaceDesktopPet.exe` 内打包了上述 BSD / MIT 系组件的二进制文件。
+> 说明：`VSeeFaceDesktopPet.exe` 内打包了上述 BSD / MIT 系组件的二进制文件
 > 若把 exe 上传到 GitHub Releases，请**随附本文件的「许可证与第三方组件」章节**或一份
-> `THIRD_PARTY_NOTICES`，以满足 BSD 许可证"二进制分发须保留版权声明"的要求。
+> `THIRD_PARTY_NOTICES`，以满足 BSD 许可证"二进制分发须保留版权声明"的要求
 >
 > VSeeFace 本身是第三方软件，本仓库不分发其任何代码或资源；本工具仅接收它输出的
-> Spout2 画面。「VSeeFace」名称仅用于说明兼容关系，不代表官方背书。
-
----
-
-## 发布到 GitHub 时的注意事项
-
-- 不要提交 `vsf_debug.log`、`vsf_pet_config.json`、`build/`、`dist/`、`*.spec`（已写入 `.gitignore`）
-- **不要提交测试截图**——桌面截图可能包含聊天窗口等私人内容（`.gitignore` 已默认排除图片）
-- 不要提交 `.workbuddy/` 目录（本地项目数据）
-- 建议仓库只放源码 + 构建脚本，二进制 exe 放 **Releases**
-- 仓库描述请注明 "Unofficial / 非官方"，避免被误认为 VSeeFace 官方项目
+> Spout2 画面。「VSeeFace」名称仅用于说明兼容关系，不代表官方背书
 
 ---
 
